@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+# Install snake oil certificate
+RUN apt-get update && apt-get install -y \
+        ssl-cert
